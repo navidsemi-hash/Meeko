@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meeko — Product Designer</title>
+  <meta name="description" content="Meeko is a product designer specializing in HTML, CSS, WordPress and Framer, converting designs into responsive websites.">
+  <meta name="theme-color" content="#e3e3ff">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/uncut-sans@5.2.5/400.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/uncut-sans@5.2.5/500.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/uncut-sans@5.2.5/600.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Instrument+Serif:ital@1&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ Header ============ -->
+  <header class="site-header" data-header>
+    <nav class="nav box" aria-label="Primary">
+      <div class="nav__row">
+        <a class="nav__logo" href="#top" aria-label="Meeko — home">Meeko</a>
+        <ul class="nav__links" role="list">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#work">Home II</a></li>
+          <li><a href="#process">Home III</a></li>
+          <li><a href="#work">Work I</a></li>
+          <li><a href="#numbers">Work II</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="nav__social" role="list">
+          <li><a class="icon-btn" href="https://x.com" target="_blank" rel="noopener" aria-label="Meeko on X">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.8 3h3.1l-6.8 7.8L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.3-8.3L2 3h6.4l4.4 5.8L17.8 3Zm-1.1 16.2h1.7L7.4 4.7H5.6l11.1 14.5Z"/></svg>
+          </a></li>
+          <li><a class="icon-btn" href="https://dribbble.com" target="_blank" rel="noopener" aria-label="Meeko on Dribbble">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.6 4.6a8.4 8.4 0 0 1 1.9 5.2 19.6 19.6 0 0 0-5.9-.3l-.7-1.6c2-.8 3.6-1.9 4.7-3.3ZM12 3.6c2.1 0 4.1.8 5.6 2.1-1 1.3-2.5 2.3-4.4 3a40 40 0 0 0-3.2-5A8.6 8.6 0 0 1 12 3.6Zm-3.7.8a37 37 0 0 1 3.2 5 31 31 0 0 1-7.7 1A8.5 8.5 0 0 1 8.3 4.4ZM3.6 12v-.3c3.2 0 6-.4 8.6-1.2l.6 1.3c-3.3 1-5.9 3-7.6 5.8A8.4 8.4 0 0 1 3.6 12ZM12 20.4c-1.9 0-3.7-.6-5.1-1.7 1.5-2.6 3.8-4.4 6.8-5.3.8 2.2 1.4 4.5 1.7 6.4-1 .4-2.2.6-3.4.6Zm5-1.6c-.4-1.8-.9-3.9-1.6-5.9 1.7-.2 3.5 0 5.3.4A8.4 8.4 0 0 1 17 18.8Z"/></svg>
+          </a></li>
+          <li><a class="icon-btn" href="https://instagram.com" target="_blank" rel="noopener" aria-label="Meeko on Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7.3a4.7 4.7 0 1 0 0 9.4 4.7 4.7 0 0 0 0-9.4Zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm6-7.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0ZM21.4 8c0-1.6-.5-3-1.6-4.1A5.7 5.7 0 0 0 15.7 2.3C14.1 2.2 9.9 2.2 8.3 2.3 6.6 2.4 5.2 2.8 4.1 3.9S2.4 6.4 2.3 8c-.1 1.6-.1 6.4 0 8 .1 1.6.5 3 1.6 4.1a5.7 5.7 0 0 0 4.2 1.6c1.6.1 6.4.1 8 0 1.6-.1 3-.5 4.1-1.6a5.7 5.7 0 0 0 1.6-4.1c.1-1.6.1-6.4 0-8Zm-2.1 9.9a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.3.4-5.6.4s-4.4.1-5.6-.4a3.2 3.2 0 0 1-1.8-1.8c-.5-1.3-.4-4.3-.4-5.6s-.1-4.4.4-5.6a3.2 3.2 0 0 1 1.8-1.8c1.3-.5 4.3-.4 5.6-.4s4.4-.1 5.6.4a3.2 3.2 0 0 1 1.8 1.8c.5 1.3.4 4.3.4 5.6s.1 4.4-.4 5.6Z"/></svg>
+          </a></li>
+        </ul>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu" data-menu-toggle>
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="nav__panel" id="mobile-menu" data-menu-panel>
+        <ul role="list">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#work">Home II</a></li>
+          <li><a href="#process">Home III</a></li>
+          <li><a href="#work">Work I</a></li>
+          <li><a href="#numbers">Work II</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="menu-scrim" data-menu-scrim hidden></div>
+
+  <main id="main">
+    <!-- ============ Hero ============ -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__stickers" aria-hidden="true">
+        <!-- Web Development tag -->
+        <div class="sticker sticker--web" style="--depth:14">
+          <div class="sticker__float">
+            <svg class="sticker__spark" viewBox="0 0 26 30"><path d="M11 2c.6 5 2.4 7.2 7 8-4.6.8-6.4 3-7 8-.6-5-2.4-7.2-7-8 4.6-.8 6.4-3 7-8Z" fill="#fede8d" stroke="#1d1d1d" stroke-width="1.2" stroke-linejoin="round"/><path d="M20 19c.3 2.4 1.1 3.4 3.4 3.8-2.3.4-3.1 1.4-3.4 3.8-.3-2.4-1.1-3.4-3.4-3.8 2.3-.4 3.1-1.4 3.4-3.8Z" fill="#fff" stroke="#1d1d1d" stroke-width="1.1" stroke-linejoin="round"/></svg>
+            <span class="sticker__pill">Web Development</span>
+            <svg class="sticker__diamond" viewBox="0 0 16 16"><path d="M8 1.5 14.5 8 8 14.5 1.5 8Z" fill="#fff" stroke="#1d1d1d" stroke-width="1.1"/></svg>
+          </div>
+        </div>
+        <!-- Pen tool -->
+        <div class="sticker sticker--pen" style="--depth:22">
+          <div class="sticker__float">
+            <svg viewBox="0 0 86 80"><g fill="none" stroke="#1d1d1d" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 12c18-8 46-6 74 8"/><circle cx="6" cy="12" r="3.4" fill="#fff"/><circle cx="80" cy="20" r="3.4" fill="#fff"/><path d="M36 10l-3 6"/></g><g stroke="#1d1d1d" stroke-width="1.3" stroke-linejoin="round"><path d="M32 18 26 46l12 20 12-20-6-28Z" fill="#fff"/><path d="M26 46h24" fill="none"/><path d="M38 66V48" fill="none"/><circle cx="38" cy="44" r="3" fill="#d8d8ff"/><rect x="31" y="66" width="14" height="9" rx="2" fill="#d1e8fd"/></g><rect x="27" y="13" width="22" height="6" rx="2" fill="#fff" stroke="#1d1d1d" stroke-width="1.3"/></svg>
+          </div>
+        </div>
+        <!-- Cup with pencil -->
+        <div class="sticker sticker--cup" style="--depth:18">
+          <div class="sticker__float">
+            <svg viewBox="0 0 60 84"><g stroke="#1d1d1d" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"><path d="m30 38 14-30 5 2.4-14 30Z" fill="#fede8d"/><path d="m44 8 2-5 4.4 2.2-1.4 4.8Z" fill="#f9d4f4"/><path d="M33.6 40.4 30 46l.4-6.6" fill="#fff"/><path d="M8 34h40l-4 44H12Z" fill="#fff"/><path d="M6 30h44v6H6Z" fill="#fff"/><path d="M14 48h28M15 60h26" fill="none"/></g></svg>
+          </div>
+        </div>
+        <!-- No-code Design tag -->
+        <div class="sticker sticker--nocode" style="--depth:12">
+          <div class="sticker__float">
+            <svg class="sticker__hand" viewBox="0 0 26 30"><path d="M9 14V5a2.2 2.2 0 0 1 4.4 0v7l6.2 1.4c1.6.4 2.6 1.9 2.3 3.5l-1.3 6.5A4 4 0 0 1 16.7 27h-4.2a4 4 0 0 1-3.2-1.6L4 18.6a2 2 0 0 1 3-2.6Z" fill="#fff" stroke="#1d1d1d" stroke-width="1.2" stroke-linejoin="round"/></svg>
+            <span class="sticker__pill">No-code Design</span>
+            <svg class="sticker__lines" viewBox="0 0 30 26"><g stroke="#1d1d1d" stroke-width="1.3" stroke-linecap="round"><path d="M3 20 14 13"/><path d="M8 24 22 21"/><path d="M5 12 11 3"/></g></svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="container hero__inner">
+        <h1 class="hero__title" id="hero-title">
+          <span class="hero__line">
+            <span class="w w--hello"><span>Hello!</span></span>
+            <span class="hero__avatar" data-avatar-cycle><img src="assets/avatar-meeko.png" alt="Portrait of Meeko" width="156" height="156" fetchpriority="high" class="is-current"><img src="assets/avatar-meeko-2.png" alt="" width="156" height="156" loading="lazy"></span>
+            <span class="w"><span>I'm</span></span>
+            <span class="w"><span>Meeko,</span></span>
+          </span>
+          <span class="hero__line">
+            <span class="w"><span>a</span></span>
+            <span class="w"><span>product</span></span>
+            <span class="w"><span>designer.</span></span>
+          </span>
+        </h1>
+        <p class="hero__lead" data-reveal style="--reveal-delay:.55s">I specialize in <b>HTML</b>, <b>CSS</b>, <b>WordPress</b>,&nbsp; and <b>Framer</b>, with a strong track record of converting designs into responsive websites.</p>
+      </div>
+    </section>
+
+    <!-- ============ Service cards ============ -->
+    <section class="services" aria-label="Quick links" data-fan-root>
+      <div class="services__grid container">
+        <a class="service box" href="#work" data-fan="1">
+          <svg class="service__icon" viewBox="0 0 96 72" aria-hidden="true"><g stroke="#1d1d1d" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"><rect x="3" y="10" width="64" height="46" rx="3" fill="#f3f3f3"/><path d="M3 19h64" fill="none"/><circle cx="9" cy="14.5" r="1.4" fill="#1d1d1d" stroke="none"/><circle cx="14" cy="14.5" r="1.4" fill="#1d1d1d" stroke="none"/><rect x="10" y="25" width="20" height="15" rx="1.5" fill="#e3e3e3"/><path d="M10 46h28M36 26h12M36 32h10" fill="none"/><circle cx="72" cy="44" r="19" fill="#fff"/><ellipse cx="72" cy="44" rx="8" ry="19" fill="none"/><path d="M53 44h38M56 34h32M56 54h32M72 25v38" fill="none"/></g></svg>
+          <h2 class="service__title">My Portfolio</h2>
+          <p class="service__text">Explore selected projects and my approach to design.</p>
+          <span class="arrow-btn" style="--c:var(--blue);--c-rest:var(--blue-l)"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a class="service box" href="#about" data-fan="0">
+          <svg class="service__icon" viewBox="0 0 96 72" aria-hidden="true"><g stroke="#1d1d1d" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"><rect x="22" y="8" width="44" height="60" rx="3" fill="#fff"/><path d="M28 4v8M36 4v8M44 4v8M52 4v8M60 4v8" fill="none"/><path d="M30 24h28M30 32h28M30 40h28M30 48h20M30 56h24" fill="none"/><path d="m60 46 20-34 6 3.5-20 34-7 4Z" fill="#f3f3f3"/><path d="m80 12 2.4-4 6 3.5-2.4 4" fill="#fede8d"/><path d="M60 46l6 3.5" fill="none"/></g></svg>
+          <h2 class="service__title">About Me</h2>
+          <p class="service__text">A closer look at my background, skills, and creative journey.</p>
+          <span class="arrow-btn" style="--c:var(--yellow);--c-rest:var(--yellow-l)"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a class="service box" href="#contact" data-fan="-1">
+          <svg class="service__icon" viewBox="0 0 96 72" aria-hidden="true"><g stroke="#1d1d1d" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"><path d="M18 30 48 8l30 22v38H18Z" fill="#f3f3f3"/><rect x="27" y="16" width="42" height="36" rx="2" fill="#fff"/><path d="M34 25h28M34 32h28M34 39h18" fill="none"/><path d="M18 30l30 22 30-22v38H18Z" fill="#fff"/><path d="M18 68l24-20M78 68 54 48" fill="none"/></g></svg>
+          <h2 class="service__title">Contact Me</h2>
+          <p class="service__text">Let’s work together to bring your ideas and vision to life.</p>
+          <span class="arrow-btn" style="--c:var(--mint);--c-rest:var(--mint-l)"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ Selected works ============ -->
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="container section-head" data-reveal>
+        <h2 class="h2" id="work-title">My selected works</h2>
+        <p class="intro">With my keen eye for detail and sharp critical thinking skills, I specialize in crafting captivating <b>websites</b>, <b>products</b>, and <b>experiences</b>.</p>
+      </div>
+
+      <div class="stack stack--work" data-stack data-reveal>
+        <div class="stack__pin">
+          <div class="container">
+            <div class="stack__deck">
+              <!-- 1. The Big Shake -->
+              <article class="project box stack__card">
+                <div class="project__body">
+                  <h3 class="project__title">The Big Shake</h3>
+                  <p class="project__tags">Brand Design, Framer</p>
+                  <p class="project__text">Built around clarity and consistency, this work defines a refined visual identity shaped by modern aesthetics and cohesive brand expression throughout.</p>
+                  <a class="btn" href="#work">View Project</a>
+                </div>
+                <div class="mock mock--shake" aria-hidden="true">
+                  <div class="mock__screen">
+                    <div class="m-nav"><i class="m-logo">shake</i><span class="m-links"><i></i><i></i><i></i><i></i></span><i class="m-cta"></i></div>
+                    <div class="shake__copy">
+                      <b>Elevate your daily nutrition and energize</b>
+                      <span></span><span></span>
+                      <i class="m-btn"></i>
+                    </div>
+                    <img class="shake__img" src="assets/work-bigshake-products.png" alt="" loading="lazy" decoding="async">
+                    <div class="shake__foot"><b>Health benefits with uncompromising taste</b><span><i></i><i></i><i></i><i></i></span></div>
+                  </div>
+                </div>
+              </article>
+              <!-- 2. Transparent Things -->
+              <article class="project box stack__card">
+                <div class="project__body">
+                  <h3 class="project__title">Transparent Things</h3>
+                  <p class="project__tags">Web Design, Typography</p>
+                  <p class="project__text">With an emphasis on precision and structure, this work brings clarity and modern aesthetics together within a consistent visual system framework.</p>
+                  <a class="btn" href="#work">View Project</a>
+                </div>
+                <div class="mock mock--transparent" aria-hidden="true">
+                  <div class="mock__screen">
+                    <div class="m-nav m-nav--center"><span class="m-links"><i></i><i></i><i></i></span><i class="m-logo m-logo--mark">TT</i><span class="m-links"><i></i><i></i><i></i></span></div>
+                    <div class="tt__copy"><b>The beauty of capturing real moments</b><span></span><span></span><i class="m-btn"></i></div>
+                    <img class="tt__img" src="assets/work-transparent-photos.png" alt="" loading="lazy" decoding="async">
+                    <div class="tt__band"><b>Stories told through light</b><i></i></div>
+                  </div>
+                </div>
+              </article>
+              <!-- 3. Phantom Limb -->
+              <article class="project box stack__card">
+                <div class="project__body">
+                  <h3 class="project__title">Phantom Limb</h3>
+                  <p class="project__tags">Logo Design, Wordpress</p>
+                  <p class="project__text">By combining clarity with contemporary design thinking, the project delivers a considered visual identity with strong and consistent brand alignment.</p>
+                  <a class="btn" href="#work">View Project</a>
+                </div>
+                <div class="mock mock--agency only-mobile" aria-hidden="true" data-mock-agency></div>
+                <div class="mock mock--blue only-desktop" aria-hidden="true" data-mock-blue></div>
+              </article>
+              <!-- 4. Heat Lightning -->
+              <article class="project box stack__card">
+                <div class="project__body">
+                  <h3 class="project__title">Heat Lightning</h3>
+                  <p class="project__tags">Webflow, UX Design</p>
+                  <p class="project__text">This project is driven by a refined design approach that balances clarity and intention with contemporary visuals and overall cohesive brand harmony.</p>
+                  <a class="btn" href="#work">View Project</a>
+                </div>
+                <div class="mock mock--agency only-desktop" aria-hidden="true" data-mock-agency></div>
+                <div class="mock mock--blue only-mobile" aria-hidden="true" data-mock-blue></div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="more" data-reveal>
+        <p>Are you ready to see more?</p>
+        <a class="btn" href="#work">See All Works</a>
+      </div>
+    </section>
+
+    <!-- Templates for the two mock websites that swap between breakpoints -->
+    <template id="tpl-agency">
+      <div class="mock__screen">
+        <div class="m-nav"><i class="m-logo">agency.</i><span class="m-pill"><i class="on"></i><i></i><i></i><i></i><i></i></span><span class="m-dots"><i></i><i></i><i></i></span></div>
+        <p class="ag__over">Creative studio</p>
+        <div class="ag__aura" data-aura><canvas></canvas></div>
+        <p class="ag__head">We’re a creative <span class="ag__chip"><i></i></span><br>agency <em>specializing on</em><br>digital marketing.</p>
+        <img class="ag__img" src="assets/work-agency-products.png" alt="" loading="lazy" decoding="async">
+      </div>
+    </template>
+    <template id="tpl-blue">
+      <div class="mock__screen">
+        <div class="m-nav m-nav--light"><i class="m-logo">heat</i><span class="m-links"><i></i><i></i><i></i><i></i><i></i></span><i class="m-cta"></i></div>
+        <p class="bl__head">Grow your business with<br>our proven strategy</p>
+        <p class="bl__sub"><span></span></p>
+        <i class="m-btn m-btn--light"></i>
+        <img class="bl__img" src="assets/work-heat-team.png" alt="" loading="lazy" decoding="async">
+      </div>
+    </template>
+
+    <!-- ============ Testimonial ============ -->
+    <section class="testimonial" aria-label="Client testimonials" data-testimonials>
+      <div class="container" data-reveal>
+        <svg class="testimonial__mark" viewBox="0 0 40 30" aria-hidden="true"><path d="M3 27V17C3 9 6.6 4 14 2.5l1.3 3C11 7 9.4 9.6 9.3 13H16v14Zm20 0V17c0-8 3.6-13 11-14.5l1.3 3C31 7 29.4 9.6 29.3 13H36v14Z" fill="#fede8d" stroke="#1d1d1d" stroke-width="1.1" stroke-linejoin="round"/></svg>
+        <div class="testimonial__viewport" aria-live="polite">
+          <blockquote class="testimonial__quote" data-quote>“I've been using this product for a month now, and I can honestly say it's changed my life. The results are incredible, and I couldn't be happier. Highly recommend!”</blockquote>
+          <p class="testimonial__name" data-name>Cory Zamora</p>
+          <p class="testimonial__role" data-role>Product Manager</p>
+        </div>
+        <div class="testimonial__people" role="tablist" aria-label="Choose a testimonial">
+          <button class="person" type="button" role="tab" style="--ring:var(--mint-l)" data-person="0" aria-label="Daniel Reyes"><img src="assets/client-1.png" alt="" width="96" height="96" loading="lazy"></button>
+          <button class="person" type="button" role="tab" style="--ring:var(--lilac)" data-person="1" aria-label="Cory Zamora"><img src="assets/client-2.png" alt="" width="120" height="120" loading="lazy"></button>
+          <button class="person" type="button" role="tab" style="--ring:var(--peach)" data-person="2" aria-label="Natalie Brooks"><img src="assets/client-3.png" alt="" width="96" height="96" loading="lazy"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Lavender band: process + numbers ============ -->
+    <div class="band">
+      <section class="process" id="process" aria-labelledby="process-title">
+        <div class="stack stack--process" data-stack>
+          <div class="stack__pin">
+            <div class="container process__grid">
+              <div class="process__copy" data-reveal>
+                <h2 class="h2 h2--md" id="process-title">High-quality work with real value considered.</h2>
+                <p class="process__text">My working process revolves around an approach aimed at maximizing productivity and creativity with clarity and focus. It begins with thorough research and planning, where I gather relevant information and outline key objectives.</p>
+                <ul class="process__list" role="list">
+                  <li>Innovative Thinking</li>
+                  <li>Rapid Solutions</li>
+                  <li>Wholistic Approach</li>
+                  <li>Talent-Focused</li>
+                </ul>
+                <a class="btn" href="#about">Learn More</a>
+              </div>
+              <div class="stack__deck process__deck" data-reveal>
+                <article class="step box stack__card" style="--bg:#fbe6e3">
+                  <span class="step__icon"><svg viewBox="0 0 40 40" aria-hidden="true"><g fill="none" stroke="#1d1d1d" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"><rect x="7" y="9" width="26" height="22" rx="2" fill="#fff"/><path d="M7 15h26M12 6v6M28 6v6M12 21h4M18 21h4M24 21h4M12 26h4M18 26h4"/></g></svg></span>
+                  <span class="step__num">(01)</span>
+                  <h3 class="step__title">Problem Framing</h3>
+                  <p class="step__text">I explore insights, and market context to clearly define the problem. Research findings are translated into ideas that shape direction, inform decisions, and establish a strong foundation for the project.</p>
+                </article>
+                <article class="step box stack__card" style="--bg:#d9f4ec">
+                  <span class="step__icon"><svg viewBox="0 0 40 40" aria-hidden="true"><g fill="none" stroke="#1d1d1d" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"><path d="M20 7a9 9 0 0 0-5 16.5V27h10v-3.5A9 9 0 0 0 20 7Z" fill="#fff"/><path d="M16 31h8M17.5 34h5M20 27v-7l-3-3M20 20l3-3"/></g></svg></span>
+                  <span class="step__num">(02)</span>
+                  <h3 class="step__title">Shaping the Idea</h3>
+                  <p class="step__text">Here, I refine initial ideas into clear concepts by aligning strategy and creativity. I develop structural directions that balance innovation with feasibility, while supporting both brand goals and user expectations.</p>
+                </article>
+                <article class="step box stack__card" style="--bg:#fbe1f6">
+                  <span class="step__icon"><svg viewBox="0 0 40 40" aria-hidden="true"><g fill="none" stroke="#1d1d1d" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"><path d="M16 7h8M17 7v9l-8 13a3 3 0 0 0 2.6 4.5h16.8A3 3 0 0 0 31 29l-8-13V7" fill="#fff"/><path d="M12.5 24h15"/><circle cx="18" cy="28" r="1.2"/><circle cx="23" cy="29.5" r="1"/></g></svg></span>
+                  <span class="step__num">(03)</span>
+                  <h3 class="step__title">Testing the Experience</h3>
+                  <p class="step__text">In this phase, I bring concepts to life through prototyping and real-world testing. I validate functionality, usability, and clarity by iterating on feedback, refining details, and resolving issues before final delivery.</p>
+                </article>
+                <article class="step box stack__card" style="--bg:#e4f1fe">
+                  <span class="step__icon"><svg viewBox="0 0 40 40" aria-hidden="true"><g fill="none" stroke="#1d1d1d" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"><rect x="8" y="16" width="24" height="6" rx="1" fill="#fff"/><path d="M10 22h20v11H10Z" fill="#fff"/><path d="M20 16v17M20 16c-2-5-8-7-8-3s8 3 8 3ZM20 16c2-5 8-7 8-3s-8 3-8 3Z"/></g></svg></span>
+                  <span class="step__num">(04)</span>
+                  <h3 class="step__title">Polishing the Outcome</h3>
+                  <p class="step__text">In the final stage of design, thorough attention is given to refine the product, ensuring it meets high standards of quality and functionality through testing, tweaking, and iteration to address any remaining issues.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="numbers" id="numbers" aria-labelledby="numbers-title">
+        <div class="container section-head" data-reveal>
+          <h2 class="h2" id="numbers-title">My numbers say it all</h2>
+          <p class="intro">These numbers reflect the <b>experience</b> and <b>consistency</b>, and measurable impact behind the work I’ve delivered over the years.</p>
+        </div>
+        <ul class="stats container" role="list">
+          <li class="stat" data-reveal="scale" style="--fill:#ececff"><span class="stat__num">98%</span><span class="stat__label">Satisfied happy customers</span></li>
+          <li class="stat" data-reveal="scale" style="--fill:#eef0f0;--reveal-delay:.1s"><span class="stat__num">15</span><span class="stat__label">Years of work experience</span></li>
+          <li class="stat" data-reveal="scale" style="--fill:#eef0f2;--reveal-delay:.2s"><span class="stat__num">80+</span><span class="stat__label">Successful projects done</span></li>
+          <li class="stat" data-reveal="scale" style="--fill:#d6f3ea;--reveal-delay:.3s"><span class="stat__num">10+</span><span class="stat__label">Design awards received</span></li>
+          <li class="stat" data-reveal="scale" style="--fill:#f6dbef;--reveal-delay:.4s"><span class="stat__num">45</span><span class="stat__label">Travelled around the country</span></li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- ============ About ============ -->
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__media" data-reveal="scale">
+          <svg width="0" height="0" class="sr-svg" aria-hidden="true" focusable="false">
+            <clipPath id="blob" clipPathUnits="objectBoundingBox"><path d="M.1705 0H.8295A.1705.16667 0 0 1 .8295.33333A.1705.16667 0 0 1 .8295.66667A.1705.16667 0 0 1 .8295 1H.1705A.1705.16667 0 0 1 .1705.66667A.1705.16667 0 0 1 .1705.33333A.1705.16667 0 0 1 .1705 0Z"/></clipPath>
+          </svg>
+          <div class="blob">
+            <div class="blob__clip"><img src="assets/about-meeko.png" alt="Meeko with pink bob hair smiling against a yellow background" width="572" height="604" loading="lazy" decoding="async"></div>
+            <svg class="blob__outline" viewBox="0 0 1 1" preserveAspectRatio="none" aria-hidden="true"><path d="M.1705 0H.8295A.1705.16667 0 0 1 .8295.33333A.1705.16667 0 0 1 .8295.66667A.1705.16667 0 0 1 .8295 1H.1705A.1705.16667 0 0 1 .1705.66667A.1705.16667 0 0 1 .1705.33333A.1705.16667 0 0 1 .1705 0Z" fill="none" stroke="#1d1d1d" stroke-width="1.2" vector-effect="non-scaling-stroke"/></svg>
+          </div>
+          <svg class="tape" viewBox="0 0 250 64" aria-hidden="true"><path d="M8 10 22 4l18 4 20-6 22 5 24-4 22 5 22-4 22 4 22-3 20 5 18-2 10 8-8 8 10 8-8 8 8 9-14 3-20-3-22 4-20-4-24 5-22-4-22 4-24-4-20 4-24-4-18 3-12-4 8-9-10-8 10-8-8-8Z" fill="#e3f2ff" stroke="#1d1d1d" stroke-width="1.1" stroke-linejoin="round"/><g fill="#1d1d1d"><path d="m34 14 5 8h-10Z"/><path d="m70 26 5 8h-10Z"/><path d="m58 44 5 8h-10Z"/><path d="m98 12 5 8h-10Z"/><path d="m110 34 5 8h-10Z"/><path d="m140 18 5 8h-10Z"/><path d="m150 42 5 8h-10Z"/><path d="m182 12 5 8h-10Z"/><path d="m190 32 5 8h-10Z"/><path d="m220 22 5 8h-10Z"/><path d="m24 38 5 8h-10Z"/><path d="m210 44 5 8h-10Z"/></g></svg>
+          <a class="badge badge--about" href="mailto:?subject=Freelance%20project" aria-label="I am available for freelance — send an email">
+            <svg class="badge__ring" viewBox="0 0 100 100" aria-hidden="true"><defs><path id="ring-a" d="M50 50m-36 0a36 36 0 1 1 72 0a36 36 0 1 1-72 0"/></defs><text><textPath href="#ring-a" textLength="224" lengthAdjust="spacing">– I AM AVAILABLE – FOR FREELANCE</textPath></text></svg>
+            <svg class="badge__icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2" fill="none" stroke="#1d1d1d" stroke-width="1.2"/><path d="m3.5 7 8.5 6.5L20.5 7" fill="none" stroke="#1d1d1d" stroke-width="1.2" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+        <div class="about__copy" data-reveal style="--reveal-delay:.1s">
+          <h2 class="h2 h2--md" id="about-title">Hey! That’s me.</h2>
+          <p>I am Meeko, a multidisciplinary designer and blogger based in the vibrant city of Los Angeles. With a keen eye for aesthetics and a knack for innovative solutions, I thrive in the dynamic intersection of design.</p>
+          <p>My journey in this dynamic and ever-evolving field has been a testament to my unwavering passion for meticulously crafting meaningful user experiences, leveraging cutting-edge technologies, and fearlessly pushing the boundaries of digital creativity.</p>
+          <ul class="skills" role="list" data-skills data-reveal="fade" style="--reveal-delay:.5s">
+            <li class="skill" style="--v:95;--c:#bfdcfa"><span class="skill__label">UI Design</span><span class="skill__val">95%</span><span class="skill__bar" role="progressbar" aria-label="UI Design" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"><i></i></span></li>
+            <li class="skill" style="--v:97;--c:#d4ee9c"><span class="skill__label">Web Design</span><span class="skill__val">97%</span><span class="skill__bar" role="progressbar" aria-label="Web Design" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100"><i></i></span></li>
+            <li class="skill" style="--v:85;--c:#f3c4ec"><span class="skill__label">Framer</span><span class="skill__val">85%</span><span class="skill__bar" role="progressbar" aria-label="Framer" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><i></i></span></li>
+            <li class="skill" style="--v:80;--c:#c9c9fb"><span class="skill__label">Wordpress</span><span class="skill__val">80%</span><span class="skill__bar" role="progressbar" aria-label="Wordpress" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><i></i></span></li>
+            <li class="skill" style="--v:90;--c:#b5e9de"><span class="skill__label">Photoshop</span><span class="skill__val">90%</span><span class="skill__bar" role="progressbar" aria-label="Photoshop" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><i></i></span></li>
+            <li class="skill" style="--v:65;--c:#fbd77e"><span class="skill__label">Illustration</span><span class="skill__val">65%</span><span class="skill__bar" role="progressbar" aria-label="Illustration" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"><i></i></span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Capabilities ============ -->
+    <section class="capabilities" aria-labelledby="cap-title">
+      <div class="container section-head" data-reveal>
+        <h2 class="h2" id="cap-title">My capabilities</h2>
+        <p class="intro">The services I offer are meticulously crafted and tailored to cater specifically to your <b>unique needs</b> and <b>requirements</b>.</p>
+      </div>
+      <ul class="caps container" role="list">
+        <li class="cap" data-reveal="scale"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2c.5 4.4 2.2 6.3 6.5 7-4.3.7-6 2.6-6.5 7-.5-4.4-2.2-6.3-6.5-7C7.8 8.3 9.5 6.4 10 2Z" fill="#cdeb9a" stroke="#1d1d1d" stroke-width="1.1" stroke-linejoin="round"/></svg>Mobile Design</li>
+        <li class="cap" data-reveal="scale" style="--reveal-delay:0.15s"><svg viewBox="0 0 20 20" aria-hidden="true"><g fill="#fff" stroke="#1d1d1d" stroke-width="1.1"><path d="M10 2.5c1.3 0 1.6 1.8 2.4 2.3s2.6-.4 3.3.8-.8 2.3-.8 3.4 1.6 2.2.8 3.4-2.5.3-3.3.8-1.1 2.3-2.4 2.3-1.6-1.8-2.4-2.3-2.6.4-3.3-.8.8-2.3.8-3.4-1.6-2.2-.8-3.4 2.5-.3 3.3-.8S8.7 2.5 10 2.5Z" fill="#fede8d"/><circle cx="10" cy="10" r="2.4"/></g></svg>UX &amp; Product Design</li>
+        <li class="cap" data-reveal="scale" style="--reveal-delay:0.30s"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3 17.5 16h-15Z" fill="#fff" stroke="#1d1d1d" stroke-width="1.1" stroke-linejoin="round"/></svg>Identity &amp; Branding</li>
+        <li class="cap" data-reveal="scale" style="--reveal-delay:0.45s"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m10 2.5 2.2 4.6 5 .7-3.6 3.5.9 5-4.5-2.4-4.5 2.4.9-5-3.6-3.5 5-.7Z" fill="#fede8d" stroke="#1d1d1d" stroke-width="1.1" stroke-linejoin="round"/></svg>Illustration</li>
+        <li class="cap" data-reveal="scale" style="--reveal-delay:0.60s"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 16.5S3 12.3 3 7.6A3.6 3.6 0 0 1 10 6a3.6 3.6 0 0 1 7 1.6c0 4.7-7 8.9-7 8.9Z" fill="#f9d4f4" stroke="#1d1d1d" stroke-width="1.1" stroke-linejoin="round"/></svg>Web Development</li>
+        <li class="cap" data-reveal="scale" style="--reveal-delay:0.75s"><svg viewBox="0 0 20 20" aria-hidden="true"><g stroke="#1d1d1d" stroke-width="1.1"><circle cx="10" cy="10" r="6.5" fill="#d1e8fd"/><circle cx="10" cy="10" r="2.2" fill="#fff"/><path d="M10 1.8v2.4M10 15.8v2.4M1.8 10h2.4M15.8 10h2.4M4.2 4.2l1.7 1.7M14.1 14.1l1.7 1.7M4.2 15.8l1.7-1.7M14.1 5.9l1.7-1.7" fill="none" stroke-linecap="round"/></g></svg>Shopify Integration</li>
+        <li class="cap" data-reveal="scale" style="--reveal-delay:0.90s"><svg viewBox="0 0 20 20" aria-hidden="true"><g stroke="#1d1d1d" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"><path d="M10 2.5a5 5 0 0 0-2.8 9.2V14h5.6v-2.3A5 5 0 0 0 10 2.5Z" fill="#c8f0e8"/><path d="M8 16.5h4" fill="none"/></g></svg>Digital Solutions</li>
+      </ul>
+    </section>
+
+    <div class="container"><hr class="divider"></div>
+
+    <!-- ============ Blog ============ -->
+    <section class="blog" id="blog" aria-labelledby="blog-title">
+      <div class="container section-head" data-reveal>
+        <h2 class="h2" id="blog-title">From the blog</h2>
+        <p class="intro">Here I share my insights as a freelancer, offering valuable <b>tips</b>, <b>tricks</b>, and <b>experiences</b> on navigating the freelancing landscape.</p>
+      </div>
+      <div class="posts container">
+        <article class="post box">
+          <a class="post__link" href="#blog">
+            <div class="post__media"><img src="assets/blog-design-choices.png" alt="Colorful abstract posters laid on a mint surface" width="500" height="328" loading="lazy" decoding="async"></div>
+            <div class="post__body">
+              <h3 class="post__title">Design choices that age well and the ones you will regret later.</h3>
+              <p class="post__text">Useful takeaways for product and web design work. From layout rhythm to final finishing touches.</p>
+              <p class="post__meta"><time datetime="2026-02-07">Feb 7, 2026</time><span aria-hidden="true">•</span><span>Design</span></p>
+            </div>
+          </a>
+        </article>
+        <article class="post box post--secondary">
+          <a class="post__link" href="#blog">
+            <div class="post__media"><img src="assets/blog-small-decisions.png" alt="Hand holding a smartphone against a lilac background" width="500" height="328" loading="lazy" decoding="async"></div>
+            <div class="post__body">
+              <h3 class="post__title">Small design decisions that quietly change the entire experience.</h3>
+              <p class="post__text">A curated mix of patterns I return to often. Use them to improve clarity, consistency, and flow.</p>
+              <p class="post__meta"><time datetime="2026-02-07">Feb 7, 2026</time><span aria-hidden="true">•</span><span>Illustration</span></p>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="more more--blog" data-reveal="up-sm"><a class="btn" href="#blog">See All Posts</a></div>
+    </section>
+  </main>
+
+  <!-- ============ Footer / CTA ============ -->
+  <footer class="footer" id="contact">
+    <div class="container footer__inner">
+      <a data-reveal="fade" class="badge badge--footer" href="mailto:?subject=Freelance%20project" aria-label="I am available for freelance — send an email">
+        <svg class="badge__ring" viewBox="0 0 100 100" aria-hidden="true"><defs><path id="ring-b" d="M50 50m-36 0a36 36 0 1 1 72 0a36 36 0 1 1-72 0"/></defs><text><textPath href="#ring-b" textLength="224" lengthAdjust="spacing">– I AM AVAILABLE – FOR FREELANCE</textPath></text></svg>
+        <svg class="badge__icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2" fill="none" stroke="#1d1d1d" stroke-width="1.2"/><path d="m3.5 7 8.5 6.5L20.5 7" fill="none" stroke="#1d1d1d" stroke-width="1.2" stroke-linejoin="round"/></svg>
+      </a>
+
+      <div class="cta">
+        <svg data-reveal="scale" class="cta__bubble" viewBox="0 0 80 58" aria-hidden="true"><path d="M12 2h56a10 10 0 0 1 10 10v22a10 10 0 0 1-10 10H26l-12 12 2-12h-4A10 10 0 0 1 2 34V12A10 10 0 0 1 12 2Z" fill="#fff" stroke="#1d1d1d" stroke-width="1.2" stroke-linejoin="round"/><circle cx="27" cy="23" r="3.2" fill="#1d1d1d"/><circle cx="40" cy="23" r="3.2" fill="#1d1d1d"/><circle cx="53" cy="23" r="3.2" fill="#1d1d1d"/></svg>
+        <h2 class="cta__title" data-reveal style="--reveal-delay:.1s">Let's talk about your project.</h2>
+        <p class="cta__text" data-reveal style="--reveal-delay:.2s">Got a project in mind? Let's create something great. We can transform that idea into real product.</p>
+        <div class="cta__action">
+          <a class="btn btn--light" href="mailto:?subject=Project%20inquiry" data-reveal="up-sm" style="--reveal-delay:.35s">Get in Touch</a>
+          <span class="cta__note" aria-hidden="true" data-reveal="fade" style="--reveal-delay:.6s">
+            <svg viewBox="0 0 60 40"><path d="M54 36C52 18 38 6 6 8" fill="none" stroke="#fff" stroke-width="1.3" stroke-linecap="round"/><path d="M13 2 5 8l8 6" fill="none" stroke="#fff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>and make it<br>real together</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="footer__bar" data-reveal="up-sm">
+        <p>© Meeko by <a href="https://dribbble.com/elemis" target="_blank" rel="noopener">elemis</a>. Powered by Framer.</p>
+        <ul role="list">
+          <li><a href="#work">Portfolio</a></li>
+          <li><a href="#about">About Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
